@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+
+    </div>
+    <script>
+       let x= React.createElement('div',null,[
+        React.createElement('h2',null,"Sayantan Roy"),
+        React.createElement('p',null,"Software Developer, Educator at Geekster"),
+        React.createElement('a',{href:"linkedin.com"},"linkedin ",React.createElement('a',{href:"github.com"},"github")),
+        React.createElement('hr',null,),
+        React.createElement('h2',null,"Experience"),
+        React.createElement('h3',null,"Software developer at Amazon"),
+        React.createElement('p',null,"    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tempora repellendus dolor voluptate laudantium iste quam itaque quisquam? Facilis, quia vitae sit odit animi nobis magnam debitis at corporis aperiam ullam modi vero nesciunt deserunt explicabo accusantium officia natus voluptate qui consequuntur, iure exercitationem laudantium laboriosam facere. Laborum, quis doloribus."),
+        React.createElement('hr',null,),
+        React.createElement('h3',null,"Educator at Geekster"),
+        React.createElement('p',null,"    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos tempora repellendus dolor voluptate laudantium iste quam itaque quisquam? Facilis, quia vitae sit odit animi nobis magnam debitis at corporis aperiam ullam modi vero nesciunt deserunt explicabo accusantium officia natus voluptate qui consequuntur, iure exercitationem laudantium laboriosam facere. Laborum, quis doloribus."),
+        React.createElement('h3',null,"skills"),
+        React.createElement('ul',null,[
+        React.createElement('li',null,"Java"), 
+        React.createElement('li',null,"Javascript"),
+        React.createElement('li',null,"Testing"),  
+        React.createElement('li',null,"Api design"),  
+        React.createElement('li',null,"System design")     
+        ]),
+        React.createElement('hr',null,),
+        React.createElement('h3',null,"Hobbies"),
+        React.createElement('ol',null,[
+        React.createElement('li',null,"Football"), 
+        React.createElement('li',null,"Movie"),
+        React.createElement('li',null,"Reading Books"),  
+        React.createElement('li',null,"Gameing"),  
+        React.createElement('li',null,"Biography")     
+        ]),
+    ])
+        ReactDOM.render(x,document.getElementById('root'))
+    </script>
+    
+</body>
+</html>
